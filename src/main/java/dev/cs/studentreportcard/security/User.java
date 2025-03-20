@@ -3,6 +3,7 @@ import javax.persistence.*;
 import java.util.Collection;
 @Entity
 @Table(uniqueConstraints = @UniqueConstraint(columnNames = "email"))
+// it is not only id but email is also unique (not primary key)
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

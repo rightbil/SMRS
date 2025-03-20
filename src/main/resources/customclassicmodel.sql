@@ -1,3 +1,16 @@
+use kdb
+select * from role;
+delete from role where id > 9;
+
+select * from user;
+INSERT INTO `role`(`id`, `name`)
+values(1,'Admin'),
+      (2,'Teacher'),
+      (3,'Student'),
+      (4,'Guest')
+
+
+
 use cs;
 
 Delete from cs.customer;
