@@ -41,6 +41,8 @@ public class Student {
     @Column(nullable = false, length = 50)
     String phone;
     String comment;
+    @Column(nullable = false)
+    boolean IsActive;
 
    /* @Transient
     public int getAge() {
