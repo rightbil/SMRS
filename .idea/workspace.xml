@@ -1,331 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="ANALYZE_INJECTED_CODE" value="false" />
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18c6b780-d7f7-4079-8293-40265619d19f" name="Changes" comment="Presentation ready Code v 1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/ReportCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_65.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_65.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_65.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_65.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_10_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineshopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshopping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/OnlineshoppingApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/controllers/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/controllers/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/devmodels/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/devmodels/Office.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/dtos/ProductVirtualCartDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/exceptions/ProductAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/exceptions/ProductNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/models/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/models/OrderDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/models/OrderDetailIdClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/models/Orders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/models/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/models/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/models/ProductLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/repositories/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/repositories/OrderDetailRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/repositories/OrdersRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/repositories/PaymentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/repositories/ProductLineRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/repositories/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/FieldMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/FieldMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/FieldMatchValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/FieldMatchValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/UserRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/UserRegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/UserRegistrationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/UserRegistrationDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/security/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/security/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/services/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/services/OrderDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/services/OrdersService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/services/PaymentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/services/ProductLineService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/services/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/utility/HQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/utility/HQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/utility/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/utility/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/customclassicmodel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/customclassicmodel.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dev/cs/onlineshopping/repositories/ProductRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lateruse/error 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lateruse/formtemplate 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lateruse/show 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lateruse/show 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lateruse/userform 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lateruse/userform 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application 2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/customclassicmodel 2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/customclassicmodel.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/OnlineshoppingApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/controllers/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/controllers/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/devmodels/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/devmodels/Office.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/dtos/ProductVirtualCartDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/exceptions/ProductAlreadyExistsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/exceptions/ProductNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/models/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/models/OrderDetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/models/OrderDetailIdClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/models/Orders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/models/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/models/Product$ProductBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/models/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/models/ProductLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/repositories/CustomerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/repositories/OrderDetailRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/repositories/OrdersRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/repositories/PaymentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/repositories/ProductLineRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/repositories/ProductRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/FieldMatch$List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/FieldMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/FieldMatchValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/SecurityConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/UserRegistrationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/UserRegistrationDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/security/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/services/CustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/services/OrderDetailService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/services/OrdersService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/services/PaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/services/ProductLineService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/services/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/utility/HQL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/cs/onlineshopping/utility/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/cs 2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/cs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blueplane 2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/car 2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/car.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/cart 2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/customer 2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/cycleguy 2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/decorator.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/engine 2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/engine.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/engine2 2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/exti 2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/fan.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/gage 2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/greer 2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/greer.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/oldtrain.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/planefan 2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shelf 2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/testing 2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tire.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/wrench 2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/cs 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/Just/customers 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/Orgbase 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admindb 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admindb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/adminproduct 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/adminproduct 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/adminproduct.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/base 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/base 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/futuretemplate 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productadd 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productadd 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productadd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productcart 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productcart 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productcart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productdetail 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productdetail 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productdetail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productedit 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productedit 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productedit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productlist 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productlist 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/test 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/zproductdetailtableformatted 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dev/cs/onlineshopping/repositories/ProductRepositoryTest.class" beforeDir="false" />
+    <list default="true" id="d50254b8-a090-471f-b18e-ce75ee4ac8e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/classicmodels.fG2wDg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/classicmodels.fG2wDg.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/college.l2GXOA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/cs.cAwAAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/db_example.qWaXbA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/experment.6MMZCA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/m2m.qJ8BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/m2mv2.JGQYBg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/minischool5.Cq-MWg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/mtom.xU0zAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/pre.o7IBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/president.wN0_yQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/school.dFvhyQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6985f3aa-94c0-4862-addf-d66c1f688013/storage_v2/_src_/schema/sms.Wb0BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineshopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SMRS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/ReportCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cs/studentreportcard/ReportCard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="spring-beans.schema" />
-        <option value="Record" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="JUnit5 Test Class" />
-        <option value="com.haulmont.jpb.JpaRepository" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/controllers/CustomerController.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/models/Orders.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/services/CustomerService.java" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/dev/cs/onlineshopping/services/ProductService.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="isToolWindowVisible" value="false" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rightbil&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rightbil/SMRS.git&quot;,
+    &quot;accountId&quot;: &quot;4ddafc05-5251-4a87-afcf-2b0bc5fbc346&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -333,76 +75,35 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2CzLPxyQBoajrOJ1oCyTWz2SI0J" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2uW7dul9EQ36qnsJ4QaOa1Yuryo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ReportCard.executor": "Run",
-    "Application.ShoppingApp.executor": "Run",
-    "JUnit.dev.cs.onlineshopping.controllers in onlineshopping.executor": "Run",
-    "Maven.ShoppingApp [clean].executor": "Run",
-    "Maven.onlineshopping [clean].executor": "Run",
-    "Maven.onlineshopping [compile].executor": "Run",
-    "Maven.onlineshopping [test].executor": "Run",
-    "Maven.onlineshopping [validate].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.OnlineshoppingApplication.executor": "Run",
-    "ToolWindow.Run.ShowToolbar": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bgebru/Desktop/SMS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "/Users/bgebru/Desktop/SMRS",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/jic" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/src/main/resources/image" />
-      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="dev.cs.onlineshopping.repositories" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="dev.cs.onlineshopping.repositories" />
-      <recent name="dev.cs.onlineshopping.controllers" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReportCard">
+  <component name="RunManager">
     <configuration name="ReportCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.cs.studentreportcard.ReportCard" />
       <module name="SMSApp" />
@@ -416,509 +117,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnlineshoppingApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="onlineshopping" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.cs.studentreportcard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.cs.onlineshopping" />
-      <option name="MAIN_CLASS_NAME" value="dev.cs.onlineshopping.OnlineshoppingApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="onlineshopping" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.cs.studentreportcard.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.cs.onlineshopping.repositories" />
-      <option name="MAIN_CLASS_NAME" value="dev.cs.onlineshopping.repositories.ProductRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTest.itShouldDecreaseStockQuantity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="onlineshopping" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.cs.studentreportcard.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.cs.onlineshopping.repositories" />
-      <option name="MAIN_CLASS_NAME" value="dev.cs.onlineshopping.repositories.ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="itShouldDecreaseStockQuantity" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTest.itShouldFindProductByProductCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="onlineshopping" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.cs.studentreportcard.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.cs.onlineshopping.repositories" />
-      <option name="MAIN_CLASS_NAME" value="dev.cs.onlineshopping.repositories.ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="itShouldFindProductByProductCode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dev.cs.studentreportcard.controllers in onlineshopping" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="onlineshopping" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.cs.studentreportcard.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.cs.studentreportcard.controllers" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OnlineshoppingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="onlineshopping" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.cs.onlineshopping.ShoppingApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ReportCard" />
-        <item itemvalue="JUnit.ProductRepositoryTest.itShouldFindProductByProductCode" />
-        <item itemvalue="JUnit.ProductRepositoryTest" />
-        <item itemvalue="JUnit.ProductRepositoryTest.itShouldDecreaseStockQuantity" />
-        <item itemvalue="JUnit.OnlineshoppingApplicationTests" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="18c6b780-d7f7-4079-8293-40265619d19f" name="Changes" comment="" />
-      <created>1659800448599</created>
+      <changelist id="d50254b8-a090-471f-b18e-ce75ee4ac8e7" name="Changes" comment="" />
+      <created>1742352566616</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659800448599</updated>
-      <workItem from="1659800450702" duration="4453000" />
-      <workItem from="1659807240338" duration="600000" />
-      <workItem from="1659809438467" duration="5387000" />
-      <workItem from="1659818479096" duration="20156000" />
-      <workItem from="1659891059187" duration="17837000" />
-      <workItem from="1659977052118" duration="1938000" />
-      <workItem from="1659991617728" duration="2716000" />
-      <workItem from="1660016745655" duration="12359000" />
-      <workItem from="1660050107442" duration="2075000" />
-      <workItem from="1660089389667" duration="27350000" />
-      <workItem from="1660188840488" duration="13333000" />
-      <workItem from="1660224776341" duration="10605000" />
-      <workItem from="1660309326944" duration="2681000" />
-      <workItem from="1660322471993" duration="3177000" />
-      <workItem from="1660326389614" duration="31201000" />
-      <workItem from="1660427437941" duration="18997000" />
-      <workItem from="1660450186838" duration="12349000" />
-      <workItem from="1660535708758" duration="3438000" />
-      <workItem from="1660539613243" duration="87000" />
-      <workItem from="1660539833545" duration="3028000" />
-      <workItem from="1660544691181" duration="250000" />
-      <workItem from="1660586006258" duration="3529000" />
-      <workItem from="1660592570635" duration="2252000" />
-      <workItem from="1660601333312" duration="19059000" />
-      <workItem from="1660665001283" duration="104000" />
-      <workItem from="1660671440880" duration="65039000" />
-      <workItem from="1660829151442" duration="44129000" />
-      <workItem from="1660914931911" duration="45911000" />
-      <workItem from="1660976194371" duration="872000" />
-      <workItem from="1661004286565" duration="9652000" />
-      <workItem from="1661017841526" duration="13738000" />
-      <workItem from="1661035504962" duration="73705000" />
-      <workItem from="1661186879070" duration="32452000" />
-      <workItem from="1661226020204" duration="98000" />
-      <workItem from="1661226653342" duration="556000" />
-      <workItem from="1661261652942" duration="43985000" />
-      <workItem from="1661321189185" duration="4091000" />
-      <workItem from="1661346353105" duration="21739000" />
-      <workItem from="1661447712270" duration="4000" />
-      <workItem from="1661470691294" duration="910000" />
-      <workItem from="1661474794814" duration="172000" />
-      <workItem from="1662118035408" duration="6902000" />
-      <workItem from="1662137524209" duration="7070000" />
-      <workItem from="1662156624018" duration="1945000" />
-      <workItem from="1662204965399" duration="562000" />
-      <workItem from="1662296819134" duration="217000" />
-      <workItem from="1663034186170" duration="348000" />
-      <workItem from="1664293789993" duration="112000" />
-      <workItem from="1666398901125" duration="212000" />
-      <workItem from="1666399397288" duration="188000" />
-      <workItem from="1666399626234" duration="1000" />
-      <workItem from="1667315695389" duration="84000" />
-      <workItem from="1733364938877" duration="422000" />
-      <workItem from="1737409714247" duration="1449000" />
-      <workItem from="1737422494248" duration="4267000" />
+      <updated>1742352566616</updated>
     </task>
-    <task id="LOCAL-00001" summary="Customer Controller  GetMapping methode created.">
-      <created>1660206067554</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1660206067554</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Product Repo, Service , product and product by page are added.">
-      <created>1660338637326</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1660338637326</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add to cart is working, product detail nav is also done.">
-      <created>1660367264186</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1660367264186</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Uitl class is added, Js is connected for testing, MyCart is fixed and also added estimated delivery of shipping.">
-      <created>1660449011503</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1660449011503</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Uitl class is added, Js is connected for testing, MyCart is fixed and also added estimated delivery of shipping.">
-      <created>1660449057193</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1660449057193</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Empty my cart and detail page and css fixes. added 140356.">
-      <created>1660463803274</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1660463803274</updated>
-    </task>
-    <task id="LOCAL-00007" summary="HQL query added in utilility, customers.html">
-      <created>1660614455194</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1660614455194</updated>
-    </task>
-    <task id="LOCAL-00008" summary="HQL query added in utilility, customers.html">
-      <created>1660614553008</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1660614553008</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Security pkg is added. longin, index and registration security related pages are included.">
-      <created>1660619537669</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1660619537669</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Security pkg is added. longin, index and registration security related pages are included.">
-      <created>1660619583291</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1660619583291</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Security main class was removed and customer controller mapping was changed.">
-      <created>1660620531993</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1660620531993</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Submenu for internal dashboard customer and product (CRUD are on progress )and respective pages are added.">
-      <created>1660706038859</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1660706038860</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Submenu for internal dashboard customer and product (CRUD are on progress )and respective pages are added.">
-      <created>1660706061571</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1660706061571</updated>
-    </task>
-    <task id="LOCAL-00014" summary="ProductLine repo,service, drop down for prodcutline fk added on product form and successfully added to database.">
-      <created>1660792911338</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1660792911338</updated>
-    </task>
-    <task id="LOCAL-00015" summary="ProductLine repo,service, drop down for prodcutline fk added on product form and successfully added to database.">
-      <created>1660792925069</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1660792925069</updated>
-    </task>
-    <task id="LOCAL-00016" summary="ProductLine repo,service, drop down for prodcutline fk added on product form and successfully added to database added these files too.">
-      <created>1660793017535</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1660793017535</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Productline drop down added but needs fix">
-      <created>1660832795713</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1660832795713</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Security login and registration are fixed.">
-      <created>1660942460646</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1660942460646</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Security login and registration are fixed.">
-      <created>1660942486831</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1660942486831</updated>
-    </task>
-    <task id="LOCAL-00020" summary="User Information is added to Cookies.">
-      <created>1660954187257</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1660954187257</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Product quantity adjustment , cart quantity add , reduce and remove cart item are added.">
-      <created>1660976099950</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1660976099950</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Product quantity adjustment , cart quantity add , reduce and remove cart item are added.">
-      <created>1660976114481</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1660976114481</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Cart management is added and cleaned unwanted actions.">
-      <created>1661023464046</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1661023464046</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Cart management along with order and order detail saving methods are added.">
-      <created>1661043547570</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1661043547570</updated>
-    </task>
-    <task id="LOCAL-00025" summary="bootstrap icons are added all backend functionality are working - still needs intensive testing.">
-      <created>1661063195208</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1661063195208</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Testing classes are added.">
-      <created>1661095547329</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1661095547329</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Testing classes are added.">
-      <created>1661095562706</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1661095562706</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Fixing base template to pick up by other html pages.">
-      <created>1661100365998</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1661100365998</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Menu update , css reference">
-      <created>1661109440794</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1661109440794</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Menu update , css reference">
-      <created>1661109461889</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1661109461889</updated>
-    </task>
-    <task id="LOCAL-00031" summary="product search is added.">
-      <created>1661121565019</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1661121565019</updated>
-    </task>
-    <task id="LOCAL-00032" summary="product search is added.">
-      <created>1661121748623</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1661121748623</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Adding home page grid images">
-      <created>1661140010682</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1661140010682</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Just before testing">
-      <created>1661212997138</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1661212997138</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Ready Version - 1 for submission.">
-      <created>1661222463618</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1661222463618</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Menu colors are fixed to match the main nav links">
-      <created>1661298176820</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1661298176820</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Menu colors are fixed to match the main nav links">
-      <created>1661298190619</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1661298190619</updated>
-    </task>
-    <task id="LOCAL-00038" summary="registration.html, login.html productadd.html productcart.html and total charges are fixed.">
-      <created>1661320665649</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1661320665649</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Code is clean up , commented and formatted for evaluation">
-      <created>1661325147006</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1661325147006</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Code is clean up , commented and formatted for evaluation">
-      <created>1661325294225</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1661325294225</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Code clean up css files formatting added.">
-      <created>1661386600106</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1661386600106</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Presentation ready Code v 1.0">
-      <created>1661432067672</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1661432067672</updated>
-    </task>
-    <option name="localTasksCounter" value="43" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/rightbigebru_bililign_onlineshopping_cs" />
-    </ignored-roots>
-    <MESSAGE value="HQL query added in utilility, customers.html" />
-    <MESSAGE value="Security pkg is added. longin, index and registration security related pages are included." />
-    <MESSAGE value="Security main class was removed and customer controller mapping was changed." />
-    <MESSAGE value="Submenu for internal dashboard customer and product (CRUD are on progress )and respective pages are added." />
-    <MESSAGE value="ProductLine repo,service, drop down for prodcutline fk added on product form and successfully added to database." />
-    <MESSAGE value="ProductLine repo,service, drop down for prodcutline fk added on product form and successfully added to database added these files too." />
-    <MESSAGE value="Productline drop down added but needs fix" />
-    <MESSAGE value="Security login and registration are fixed." />
-    <MESSAGE value="User Information is added to Cookies." />
-    <MESSAGE value="Product quantity adjustment , cart quantity add , reduce and remove cart item are added." />
-    <MESSAGE value="Cart management is added and cleaned unwanted actions." />
-    <MESSAGE value="Cart management along with order and order detail saving methods are added." />
-    <MESSAGE value="bootstrap icons are added all backend functionality are working - still needs intensive testing." />
-    <MESSAGE value="Testing classes are added." />
-    <MESSAGE value="Fixing base template to pick up by other html pages." />
-    <MESSAGE value="Menu update , css reference" />
-    <MESSAGE value="product search is added." />
-    <MESSAGE value="Adding home page grid images" />
-    <MESSAGE value="Just before testing" />
-    <MESSAGE value="Ready Version - 1 for submission." />
-    <MESSAGE value="Menu colors are fixed to match the main nav links" />
-    <MESSAGE value="registration.html, login.html productadd.html productcart.html and total charges are fixed." />
-    <MESSAGE value="Code is clean up , commented and formatted for evaluation" />
-    <MESSAGE value="Code clean up css files formatting added." />
-    <MESSAGE value="Presentation ready Code v 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Presentation ready Code v 1.0" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

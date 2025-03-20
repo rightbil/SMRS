@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ReportCard {
     public static void main(String[] args) {
-        System.out.println("[School Management System Application is loading ..........] " + Util.orderDate());
+        System.out.println("[School Management & Recording System Application is loading ..........] " + Util.orderDate());
         SpringApplication.run(ReportCard.class, args);
     }
 }
